@@ -1,12 +1,4 @@
 
-#doesnt forget about the previous total
-# apply_discount method
-  #if inizialized w/ employee discount, then applies the discount to total price, returns success message with updated total and reduces the total
-  #if not using employee discound, then returns a string error message that there is no discount to apply
-# items method returns an array containing all items that have been added
-#void last transaction method that subtracts the last transaction from the total
-
-
 class CashRegister
   attr_accessor :total, :discount, :items, :last_transaction
   
